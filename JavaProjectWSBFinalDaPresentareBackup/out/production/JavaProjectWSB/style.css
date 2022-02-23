@@ -1,0 +1,15 @@
+#anPane{
+
+	-fx-background-image:url("file:/Users/giuseppetumminello/Desktop/JavaProjectWSBFinalDaPresentare/src/blu.jpg");
+	-fx-background-size:cover ;
+}
+
+#register {
+-fx-background-color:E8E9EC;
+
+}
+
+#login {
+-fx-background-color:#2D3B55
+}
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anPane" prefHeight="526.0" prefWidth="800.0" style="-fx-background-color: #92A8D1#92A8D1;" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.HomePageController">
+   <children>
+      <JFXButton fx:id="showData" layoutX="354.0" layoutY="34.0" onAction="#showData" prefHeight="40.0" prefWidth="92.0" style="-fx-background-color: #34568B#34568B;" text="Show Data" textFill="WHITE" />
+      <TableView fx:id="table" layoutX="23.0" layoutY="89.0" prefHeight="349.0" prefWidth="755.0">
+        <columns>
+            <TableColumn fx:id="name" prefWidth="98.0" text="Name" />
+            <TableColumn fx:id="surname" prefWidth="139.0" text="Surname" />
+          <TableColumn fx:id="birthday" prefWidth="128.0" text="Birthday" />
+            <TableColumn fx:id="city" prefWidth="70.0" text="City" />
+            <TableColumn fx:id="telephone" prefWidth="128.0" text="telephone" />
+          <TableColumn fx:id="appointment" prefWidth="190.0" text="Appointment" />
+        </columns>
+      </TableView>
+      <JFXButton fx:id="insert" layoutX="138.0" layoutY="34.0" onAction="#insertData" prefHeight="40.0" prefWidth="92.0" style="-fx-background-color: #34568B#34568B;" text="Insert" textFill="WHITE" />
+      <JFXButton fx:id="delete" layoutX="557.0" layoutY="34.0" onAction="#deleteData" prefHeight="40.0" prefWidth="92.0" style="-fx-background-color: #34568B#34568B;" text="Delete" textFill="WHITE" />
+      <JFXButton fx:id="logout" layoutX="354.0" layoutY="464.0" onAction="#buttonLogout" prefHeight="40.0" prefWidth="92.0" style="-fx-background-color: #34568B#34568B;" text="Logout" textFill="WHITE" />
+   </children>
+</AnchorPane>

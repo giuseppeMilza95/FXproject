@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anPane" prefHeight="503.0" prefWidth="561.0" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.InsertPage">
+   <children>
+      <JFXTextArea fx:id="name" focusColor="#afbccd" layoutX="113.0" layoutY="63.0" prefHeight="36.0" prefWidth="168.0" unFocusColor="WHITE" />
+      <JFXTextArea fx:id="surname" focusColor="#afbccd" layoutX="113.0" layoutY="133.0" prefHeight="36.0" prefWidth="168.0" unFocusColor="WHITE" />
+      <JFXTextArea fx:id="birthday" focusColor="#afbccd" layoutX="113.0" layoutY="204.0" prefHeight="36.0" prefWidth="168.0" unFocusColor="WHITE" />
+      <Label layoutX="25.0" layoutY="82.0" text="Name" textFill="WHITE" />
+      <Label layoutX="23.0" layoutY="153.0" text="Surname" textFill="WHITE" />
+      <Label layoutX="25.0" layoutY="224.0" text="Birthday" textFill="WHITE" />
+      <Label layoutX="25.0" layoutY="287.0" prefHeight="17.0" prefWidth="23.0" text="City" textFill="WHITE" />
+      <Label layoutX="23.0" layoutY="339.0" prefHeight="17.0" prefWidth="82.0" text="Appointment" textFill="WHITE" />
+      <JFXTextArea fx:id="city" focusColor="#afbccd" layoutX="113.0" layoutY="267.0" prefHeight="36.0" prefWidth="168.0" unFocusColor="WHITE" />
+      <JFXTextArea fx:id="appointement" focusColor="#afbccd" layoutX="113.0" layoutY="327.0" prefHeight="36.0" prefWidth="168.0" unFocusColor="WHITE" />
+      <JFXButton fx:id="add" layoutX="391.0" layoutY="405.0" onAction="#addData" prefHeight="32.0" prefWidth="95.0" style="-fx-background-color: #34568B#34568B #34568B#34568B;" text="Add" textFill="WHITE" />
+      <JFXTextArea fx:id="telephone" focusColor="#afbccd" layoutX="113.0" layoutY="390.0" prefHeight="36.0" prefWidth="168.0" unFocusColor="WHITE" />
+      <Label layoutX="23.0" layoutY="402.0" prefHeight="17.0" prefWidth="82.0" text="Telephone" textFill="WHITE" />
+   </children>
+</AnchorPane>
